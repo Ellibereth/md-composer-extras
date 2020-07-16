@@ -1,9 +1,17 @@
-underline_button:
-  default: "Underline"
+vote_button:
+  default: "Vote a player"
   description:
     en: Enter the text for the title of the button in the composer.
-underline_text:
-  default: "Text"
+vote_text:
+  default: ""
+  description:
+    en: Enter the placeholder text that appears in the composer after the user clicks the button.
+unvote_button:
+  default: "Unvote"
+  description:
+    en: Enter the text for the title of the button in the composer.
+unvote_text:
+  default: ""
   description:
     en: Enter the placeholder text that appears in the composer after the user clicks the button.
 align_center_button:
