@@ -19,18 +19,18 @@ api.onToolbarCreate(toolbar => {
 });
 api.onToolbarCreate(toolbar => {
     toolbar.addButton({
-        id: "superscript_button",
+        id: "vote_button",
         group: "fontStyles",
-        icon: "superscript",
-		perform: e => e.applySurround('<sup>', '</sup>', 'superscript_text')
+        icon: "gavel",
+		perform: e => e.applySurround('[vote]', '[/unvote]', 'superscript_text')
     });
 });
 api.onToolbarCreate(toolbar => {
     toolbar.addButton({
-        id: "subscript_button",
+        id: "unvote_button",
         group: "fontStyles",
-        icon: "subscript",
-		perform: e => e.applySurround('<sub>', '</sub>', 'subscript_text')
+        icon: "undo",
+		perform: e => e.applySurround('[unvote]', '[/unvote]', 'subscript_text')
     });
 });
 api.onToolbarCreate(toolbar => {
